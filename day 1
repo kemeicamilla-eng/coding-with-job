@@ -1,0 +1,22 @@
+
+print("Hello, World!\n");
+print("Goodbye, World!\n");
+#Data types in python
+#Python has various data types including:
+#1. Numeric types: int, float, complex
+#2. Text type: string 
+#3. Boolean type: bool
+
+#variables in python
+#Variables are used to store data values. In Python, you don't need to declare the type
+is_raining = True
+is_hot = False
+
+print("Is it raining? ", is_raining)
+print("Is it hot? ", is_hot)
+
+age = 25
+print("My name is John and I am", age, "years old.")
+print("My name is John and I am " + str(age) + " years old.")
+
+
