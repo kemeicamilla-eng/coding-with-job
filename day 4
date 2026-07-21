@@ -1,0 +1,24 @@
+#Data types
+# Integer stores whole numbers without decimal points
+# Float stores numbers with decimal points
+# String stores text
+# Boolean stores True or False values
+
+#Type
+year = 2024
+university = "MIT"
+year = 2027
+
+print (year)
+
+#GLOBAL VARIABLES
+
+X = "Nairobi"
+
+def myfunc():
+    global X
+    X = "Mombasa"
+
+
+myfunc()
+print("I live in " , X)
